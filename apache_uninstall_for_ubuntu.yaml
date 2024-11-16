@@ -1,0 +1,9 @@
+---
+
+  - hosts: ubuntu
+    become: true
+    tasks:
+    - name: Apache uninstall.
+      apt:
+        name: apache2
+        state: absent

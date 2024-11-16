@@ -1,0 +1,7 @@
+[ubuntu]
+192.168.1.226 ansible_user=sysadmin ansible_password=123 ansible_become_pass=123
+
+[redhat]
+192.168.1.228 ansible_user=root ansible_password=1 ansible_become_pass=1
+192.168.1.225 ansible_user=root ansible_password=1 ansible_become_pass=1
+192.168.1.229 ansible_user=root ansible_password=1 ansible_become_pass=1
